@@ -1,4 +1,4 @@
-# Verificador-de-numeros-primos
+# Prime Number Checker
 Prime Number Checker in C
 
 I developed a simple application in the C programming language to verify whether a given number is prime. The program first prompts the user to enter an integer value. It then performs successive division attempts from 1 up to the number itself, checking whether the remainder of each division is zero. Whenever the number is evenly divisible, a counter variable is incremented to track the total number of divisors.
