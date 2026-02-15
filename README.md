@@ -1,8 +1,29 @@
-# Prime Number Checker
-Prime Number Checker in C
+# Prime Number Checker in C
 
-I developed a simple application in the C programming language to verify whether a given number is prime. The program first prompts the user to enter an integer value. It then performs successive division attempts from 1 up to the number itself, checking whether the remainder of each division is zero. Whenever the number is evenly divisible, a counter variable is incremented to track the total number of divisors.
+A simple **C program** to determine whether a given integer is a prime number.  
 
-At the end of the process, the program evaluates the counter value: if the number has exactly two divisors, it is classified as a prime number, since prime numbers are defined as being divisible only by 1 and themselves. Otherwise, the program reports that the number is not prime.
+The program works as follows:  
+1. Prompts the user to enter an integer.  
+2. Iteratively checks all numbers from 1 up to the entered number to see if they divide it evenly.  
+3. Counts the total number of divisors.  
+4. Determines if the number is prime: a number with exactly **two divisors** (1 and itself) is classified as prime; otherwise, it is not prime.
 
-This project demonstrates fundamental programming concepts such as control structures, loops, conditional logic, arithmetic operations, and algorithmic reasoning in C, with emphasis on mathematical validation and problem-solving.
+## Features
+- Demonstrates fundamental programming concepts in C:  
+  - Loops and control structures  
+  - Conditional statements  
+  - Arithmetic operations  
+  - Algorithmic reasoning  
+- Simple and clear logic for prime number verification.  
+
+## How It Works
+- The program increments a counter each time a divisor is found.  
+- After checking all potential divisors, it evaluates the counter:  
+  - **2 divisors → prime**  
+  - **Other → not prime**
+
+## Purpose
+This project is ideal for learning and practicing:  
+- Algorithm design  
+- Problem-solving in C  
+- Basic numerical and mathematical validation
